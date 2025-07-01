@@ -16,6 +16,13 @@ const ContactForm = () => {
     message: ""
   });
   const [focusedField, setFocusedField] = useState<string | null>(null);
+  
+  // Initialize EmailJS when component mounts
+  React.useEffect(() => {
+    // Replace "YOUR_PUBLIC_KEY" with your actual public key if you have one
+    // If you don't have a public key, this might still work with just the service and template IDs
+    emailjs.init("YOUR_PUBLIC_KEY");
+  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -66,14 +73,12 @@ const ContactForm = () => {
       // EmailJS configuration
       const serviceId = "service_45rvtcj";
       const templateId = "template_ea5uc6f";
-      const publicKey = "RhS3OlOH8h3Yq-ZIr";
-
+      
       if (formRef.current) {
         const result = await emailjs.sendForm(
           serviceId,
           templateId,
-          formRef.current,
-          publicKey
+          formRef.current
         );
 
         if (result.text === 'OK') {
