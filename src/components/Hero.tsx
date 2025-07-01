@@ -112,10 +112,16 @@ const Hero = () => {
             size="lg"
             variant="outline"
             className="group relative overflow-hidden hover:scale-105 transition-transform duration-300 flex items-center gap-2"
-            onClick={() => window.open("https://drive.google.com/file/d/1aNzo-B9-42ld2oz9J3MHaQMiP2YbuNn0/view?usp=sharing", "_blank")}
+            asChild
           >
-            <Download className="w-5 h-5 group-hover:text-primary" />
-            <span className="relative z-10">Download CV</span>
+            <a 
+              href="https://drive.google.com/file/d/1tEYbaRvcf_7K4rR-tfZxvFz0Itped0Re/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Download className="w-5 h-5 group-hover:text-primary" />
+              <span className="relative z-10">Download CV</span>
+            </a>
           </Button>
         </div>
       </div>
