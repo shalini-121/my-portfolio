@@ -19,9 +19,8 @@ const ContactForm = () => {
   
   // Initialize EmailJS when component mounts
   React.useEffect(() => {
-    // Replace "YOUR_PUBLIC_KEY" with your actual public key if you have one
-    // If you don't have a public key, this might still work with just the service and template IDs
-    emailjs.init("YOUR_PUBLIC_KEY");
+    // Initialize with public key
+    emailjs.init("9KHe1JTW_FC9WMRZe");
   }, []);
 
   const containerVariants = {
