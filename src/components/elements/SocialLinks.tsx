@@ -169,7 +169,7 @@ const SocialLinks = () => {
       
       <motion.a
         variants={itemVariants}
-        href="https://github.com/shalini-121"
+        href="https://my-portfolio-seven-omega-8uhcvbsv8u.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 text-xs text-primary/80 hover:text-primary hover-underline focus-ring mt-1 transition-colors duration-300"
