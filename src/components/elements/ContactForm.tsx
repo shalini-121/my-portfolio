@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/utils/use-toast";
 import { Loader2, Send, Mail, User, MessageSquare } from "lucide-react";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const { toast } = useToast();
@@ -55,30 +56,36 @@ const ContactForm = () => {
     setFocusedField(null);
   };
 
+  const formRef = useRef<HTMLFormElement>(null);
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
-      const formData = new FormData(e.currentTarget);
-      formData.append("access_key", "537a1a97-ff49-440c-9f2c-5b148854c238");
+      // Replace these with your actual EmailJS service, template, and user IDs
+      const serviceId = "service_45rvtcj";
+      const templateId = "template_vxibyoi";
+      const publicKey = "RhS3OlOH8h3Yq-ZIr";
 
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData
-      });
+      if (formRef.current) {
+        const result = await emailjs.sendForm(
+          serviceId,
+          templateId,
+          formRef.current,
+          publicKey
+        );
 
-      const data = await response.json();
-
-      if (data.success) {
-        toast({
-          title: "Message sent!",
-          description: "Thank you for your message. I'll get back to you soon.",
-        });
-        setFormState({ name: "", email: "", message: "" });
-        (e.target as HTMLFormElement).reset();
-      } else {
-        throw new Error(data.message);
+        if (result.text === 'OK') {
+          toast({
+            title: "Message sent!",
+            description: "Thank you for your message. I'll get back to you soon.",
+          });
+          setFormState({ name: "", email: "", message: "" });
+          (e.target as HTMLFormElement).reset();
+        } else {
+          throw new Error("Failed to send message");
+        }
       }
     } catch (error) {
       toast({
@@ -156,7 +163,7 @@ const ContactForm = () => {
         </motion.p>
       </motion.div>
 
-      <form onSubmit={handleSubmit} className="space-y-4 w-full">
+      <form ref={formRef} onSubmit={handleSubmit} className="space-y-4 w-full">
         <motion.div
           variants={itemVariants}
           className="relative"
