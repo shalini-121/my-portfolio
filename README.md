@@ -20,8 +20,8 @@
 Click below to explore my portfolio:
 
 <p align="center">
-  <a href="https://charan-reddy.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20Portfolio-charan--reddy.vercel.app-blueviolet?style=for-the-badge&logo=next.js&logoColor=white" alt="Portfolio Button">
+  <a href="https://my-portfolio-seven-omega-8uhcvbsv8u.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Portfolio-Shalini's%20Portfolio-blueviolet?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Button">
   </a>
 </p>
 
@@ -43,15 +43,15 @@ Click below to explore my portfolio:
 
 ## 🎨 **Connect With Me**
 <p align="center">
-  <a href="https://www.linkedin.com/in/chandacharanreddy/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Charan%20Reddy-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/></a>
-  <a href="mailto: shalinichegireddy54@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email- shalinichegireddy54%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email Badge"/></a>
-  <a href="https://github.com/charanreddy-27" target="_blank"><img src="https://img.shields.io/badge/GitHub-charanreddy--27-lightgrey?style=for-the-badge&logo=github" alt="GitHub Badge"/></a>
+  <a href="https://www.linkedin.com/in/shalini-chegireddy-290599290/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Shalini%20Reddy-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/></a>
+  <a href="mailto: shalinichegireddy59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email- shalinichegireddy59%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email Badge"/></a>
+  <a href="https://github.com/shalini-121" target="_blank"><img src="https://img.shields.io/badge/GitHub-shalini--121-lightgrey?style=for-the-badge&logo=github" alt="GitHub Badge"/></a>
 </p>
 
 ---
 
 <p align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; color: #4B4B4B;">
-  © 2025 <strong>Shalini Reddy</strong>. All rights reserved.
+  © 2024 <strong>Shalini Reddy</strong>. All rights reserved.
 </p>
 <p align="center" style="font-family: 'Courier New', Courier, monospace; font-size: 16px; color: #8D8D8D;">
   Built with 💙 for web development.
