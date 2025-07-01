@@ -114,13 +114,13 @@ const Hero = () => {
             className="group relative overflow-hidden hover:scale-105 transition-transform duration-300 flex items-center gap-2"
             asChild
           >
-            <a 
-              href="https://github.com/shalini-121" 
+                          <a 
+              href="https://drive.google.com/file/d/1tEYbaRvcf_7K4rR-tfZxvFz0Itped0Re/view?usp=drive_link" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <Download className="w-5 h-5 group-hover:text-primary" />
-              <span className="relative z-10">View Profile</span>
+              <span className="relative z-10">Download CV</span>
             </a>
           </Button>
         </div>
