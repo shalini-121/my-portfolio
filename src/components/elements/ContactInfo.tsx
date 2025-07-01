@@ -147,7 +147,7 @@ const ContactInfo = () => {
         <motion.a
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          href="tel:+91 73962048582525284"
+          href="tel:+917396204858"
           className="group relative overflow-hidden flex justify-between items-center gap-3 bg-secondary/20 hover:bg-primary text-white w-full px-4 py-3 rounded-lg backdrop-blur-sm border border-white/10 shadow-lg transition-all duration-300"
         >
           <div className="flex items-center gap-2">
