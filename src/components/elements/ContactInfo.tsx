@@ -32,7 +32,7 @@ const ContactInfo = () => {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText(" shalinichegireddy54@gmail.com");
+    navigator.clipboard.writeText(" shalinichegireddy59@gmail.com");
     toast({ description: "Email copied to clipboard!" });
     setEmailCopied(true);
     setTimeout(() => setEmailCopied(false), 2000);
@@ -109,7 +109,7 @@ const ContactInfo = () => {
             <div className="bg-primary/30 p-1.5 rounded-md">
               <Mail className="w-4 h-4" />
             </div>
-            <span className="text-sm font-medium"> shalinichegireddy54@gmail.com</span>
+            <span className="text-sm font-medium"> shalinichegireddy59@gmail.com</span>
           </div>
           
           <motion.div

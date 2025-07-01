@@ -181,7 +181,7 @@ Future expansions for this project may include:
 - Deep learning models (LSTM) to predict behavioral trends.
 - Integration with wearable tech data for more holistic insights.
 
-Thanks for reading — feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chandacharanreddy) to discuss more on data science and behavioral analytics!
+Thanks for reading — feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/shalini-chegireddy-290599290) to discuss more on data science and behavioral analytics!
 
 ---
 
