@@ -305,7 +305,7 @@ const Navigation = () => {
                 aria-label="Connect on LinkedIn"
               >
                 <a
-                  href="www.linkedin.com/in/shalini-chegireddy-290599290/"
+                  href="https://www.linkedin.com/in/shalini-chegireddy-290599290/"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   className="flex items-center gap-2"
@@ -383,7 +383,7 @@ const Navigation = () => {
                       aria-label="Connect on LinkedIn"
                     >
                       <a
-                        href="www.linkedin.com/in/shalini-chegireddy-290599290/"
+                        href="https://www.linkedin.com/in/shalini-chegireddy-290599290/"
                         target="_blank"
                         rel="noopener noreferrer nofollow"
                         className="flex items-center justify-center gap-2"
