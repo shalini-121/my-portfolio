@@ -115,12 +115,12 @@ const Hero = () => {
             asChild
           >
             <a 
-              href="https://drive.google.com/file/d/1tEYbaRvcf_7K4rR-tfZxvFz0Itped0Re/view?usp=drive_link" 
+              href="https://github.com/shalini-121" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <Download className="w-5 h-5 group-hover:text-primary" />
-              <span className="relative z-10">Download CV</span>
+              <span className="relative z-10">View Profile</span>
             </a>
           </Button>
         </div>
