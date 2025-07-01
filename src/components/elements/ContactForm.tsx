@@ -63,9 +63,9 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Replace these with your actual EmailJS service, template, and user IDs
+      // EmailJS configuration
       const serviceId = "service_45rvtcj";
-      const templateId = "template_vxibyoi";
+      const templateId = "template_ea5uc6f";
       const publicKey = "RhS3OlOH8h3Yq-ZIr";
 
       if (formRef.current) {
