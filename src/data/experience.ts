@@ -21,6 +21,39 @@ const workData = [
       "Speech Recognition Libraries (e.g., Web Speech API or CMU Sphinx)"
       ]
   },
+  {
+company: "Lumen Technologies",
+position: "Software Development Engineer Intern",
+duration: "Feb 2026 - Present",
+location: "Hyderabad, India",
+description:
+"Working on business intelligence solutions, dashboard development, and reporting automation using Microsoft technologies. Contributing to enterprise reporting and data-driven business solutions.",
+
+responsibilities: [
+"Developed and enhanced business intelligence dashboards and reporting solutions",
+"Performed data transformation, data modeling, and DAX measure development",
+"Automated reporting workflows using Microsoft Fabric and Power Automate",
+"Built data pipelines using Lakehouse, Dataflows Gen2, Semantic Models, and SharePoint",
+"Utilized Python and Fabric Notebooks for data processing and automation"
+],
+tools: [
+"Power BI",
+"DAX",
+"Power Query",
+"Microsoft Fabric",
+"Lakehouse",
+"OneLake",
+"Dataflows Gen2",
+"Semantic Models",
+"Power Automate",
+"SharePoint",
+"Python",
+"PySpark",
+"VS Code",
+"Jira",
+"Copilot"
+]
+},
 ];
 
 export default workData;
