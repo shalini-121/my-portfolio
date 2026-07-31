@@ -3,7 +3,7 @@ const educationData = [
     school:        "Qis College of Engineering and Technology, Ongole",
     degree:        "Bachelor of Technology in Information Technology",
     duration:      "August 2022 – August 2026",
-    gpa:           "8.90 / 10.0",
+    gpa:           "9.08 / 10.0",
     location:      "Ongole, India",
     courses: [
       "Big Data Analytics",
