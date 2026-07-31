@@ -158,7 +158,7 @@ const AboutTeaser = () => {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <div className="flex flex-col items-center justify-center">
-                  <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary">8.90</span>
+                  <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary">9.08</span>
                   <p className="text-sm md:text-base text-foreground/80 mt-2">CGPA</p>
                 </div>
               </motion.div>
