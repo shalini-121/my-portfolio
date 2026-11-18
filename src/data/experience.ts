@@ -2,7 +2,7 @@ const workData = [
   {
 company: "Lumen Technologies",
 position: "Software Development Engineer Intern",
-duration: "Feb 2026 - Present",
+duration: "Feb 2026 - Nov 2026",
 location: "Banglore, India",
 description:
 "Working on business intelligence solutions, dashboard development, and reporting automation using Microsoft technologies. Contributing to enterprise reporting and data-driven business solutions.",
